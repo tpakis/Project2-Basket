@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Basket</string>
+    <string name="home">HOME</string>
+    <string name="guest">GUEST</string>
+    <string name="one_point">1 point</string>
+    <string name="two_points">2 points</string>
+    <string name="three_points">3 points</string>
+    <string name="reset">Reset</string>
+    <string name="fouls_timeouts">FOULS | TIMEOUTS</string>
+    <string name="foul">Foul</string>
+    <string name="timeout">Timeout</string>
+
+</resources>

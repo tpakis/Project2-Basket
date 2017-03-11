@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basket</string>
+    <string name="foul">ΦΑΟΥΛ</string>
+    <string name="fouls_timeouts">ΦΑΟΥΛ | ΤΑΙΜΑΟΥΤ</string>
+    <string name="guest">ΦΙΛΟΞ/ΝΟΙ</string>
+    <string name="home">ΓΗΠΕΔΟΥΧΟΙ</string>
+    <string name="one_point">1 ΠΟΝΤΟΣ</string>
+    <string name="reset">ΣΒΗΣΕ</string>
+    <string name="three_points">3 ΠΟΝΤΟΙ</string>
+    <string name="timeout">ΤΑΙΜΑΟΥΤ</string>
+    <string name="two_points">2 ΠΟΝΤΟΙ</string>
+</resources>

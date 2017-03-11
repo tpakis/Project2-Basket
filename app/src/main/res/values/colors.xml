@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#000000</color>
+    <color name="colorTime">#000000</color>
+    <color name="colorReset">#adad85</color>
+    <color name="colorPoints">#dd0b0b</color>
+    <color name="colorBackButtons">#ff9933</color>
+    <color name="colorBackFouls">#f72215</color>
+    <color name="colorBackTimeouts">#2b90f5</color>
+</resources>

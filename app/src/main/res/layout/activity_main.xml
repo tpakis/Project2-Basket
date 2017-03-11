@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context="com.example.android.basket.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                style="@style/textTeamNames"
+                android:text="@string/home" />
+
+            <TextView
+                android:id="@+id/homePoints"
+                style="@style/textPoints" />
+
+            <TextView
+                style="@style/textTeamNames"
+                android:layout_marginTop="@dimen/bottom_top_margin"
+                android:text="@string/fouls_timeouts"
+                android:textSize="@dimen/small_text" />
+
+            <TextView
+                android:id="@+id/homeFoulsTimeouts"
+                style="@style/textFoulsTimeouts" />
+
+            <Button
+                style="@style/pointButtons"
+                android:layout_marginTop="@dimen/large_margin"
+                android:tag="101"
+                android:text="@string/one_point" />
+
+            <Button
+                style="@style/pointButtons"
+                android:tag="102"
+                android:text="@string/two_points" />
+
+            <Button
+                style="@style/pointButtons"
+                android:tag="103"
+                android:text="@string/three_points" />
+
+            <Button
+                style="@style/pointButtons"
+                android:background="@color/colorBackFouls"
+                android:onClick="onClickFoulsTimeouts"
+                android:tag="101"
+                android:text="@string/foul" />
+
+            <Button
+                style="@style/pointButtons"
+                android:background="@color/colorBackTimeouts"
+                android:onClick="onClickFoulsTimeouts"
+                android:tag="102"
+                android:text="@string/timeout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                style="@style/textTeamNames"
+                android:text="@string/guest" />
+
+            <TextView
+                android:id="@+id/guestPoints"
+                style="@style/textPoints" />
+
+            <TextView
+                style="@style/textTeamNames"
+                android:layout_marginTop="@dimen/bottom_top_margin"
+                android:text="@string/fouls_timeouts"
+                android:textSize="@dimen/small_text" />
+
+            <TextView
+                android:id="@+id/guestFoulsTimeouts"
+                style="@style/textFoulsTimeouts" />
+
+            <Button
+                style="@style/pointButtons"
+                android:layout_marginTop="@dimen/large_margin"
+                android:tag="201"
+                android:text="@string/one_point" />
+
+            <Button
+                style="@style/pointButtons"
+                android:tag="202"
+                android:text="@string/two_points" />
+
+            <Button
+                style="@style/pointButtons"
+                android:tag="203"
+                android:text="@string/three_points" />
+
+            <Button
+                style="@style/pointButtons"
+                android:background="@color/colorBackFouls"
+                android:onClick="onClickFoulsTimeouts"
+                android:tag="201"
+                android:text="@string/foul" />
+
+            <Button
+                style="@style/pointButtons"
+                android:background="@color/colorBackTimeouts"
+                android:onClick="onClickFoulsTimeouts"
+                android:tag="202"
+                android:text="@string/timeout" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/pointButtons"
+            android:layout_marginBottom="@dimen/bottom_top_margin"
+            android:background="@color/colorReset"
+            android:onClick="resetGame"
+            android:text="@string/reset" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
